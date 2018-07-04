@@ -12,6 +12,11 @@
 		2E33659720DECA320068C52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E33659520DECA320068C52F /* Main.storyboard */; };
 		2E33659920DECA330068C52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E33659820DECA330068C52F /* Assets.xcassets */; };
 		2E33659C20DECA330068C52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E33659A20DECA330068C52F /* LaunchScreen.storyboard */; };
+		2E3365A420DECA570068C52F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3365A320DECA570068C52F /* CalendarViewController.swift */; };
+		2E3365A820E0FB550068C52F /* Journals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3365A720E0FB550068C52F /* Journals.swift */; };
+		2E3365AE20E211C70068C52F /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3365AD20E211C70068C52F /* JournalTableViewController.swift */; };
+		2E4BA90220E21EE300BDB425 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BA90120E21EE300BDB425 /* EditTableViewController.swift */; };
+		2E4BA90A20E26D2800BDB425 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BA90920E26D2800BDB425 /* JournalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		2E33659820DECA330068C52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E33659B20DECA330068C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E33659D20DECA330068C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3365A320DECA570068C52F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2E3365A720E0FB550068C52F /* Journals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journals.swift; sourceTree = "<group>"; };
+		2E3365AD20E211C70068C52F /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		2E4BA90120E21EE300BDB425 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		2E4BA90920E26D2800BDB425 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				2E33659820DECA330068C52F /* Assets.xcassets */,
 				2E33659A20DECA330068C52F /* LaunchScreen.storyboard */,
 				2E33659D20DECA330068C52F /* Info.plist */,
+				2E3365A720E0FB550068C52F /* Journals.swift */,
+				2E3365A320DECA570068C52F /* CalendarViewController.swift */,
+				2E3365AD20E211C70068C52F /* JournalTableViewController.swift */,
+				2E4BA90120E21EE300BDB425 /* EditTableViewController.swift */,
+				2E4BA90920E26D2800BDB425 /* JournalTableViewCell.swift */,
 			);
 			path = "Bullet Journal";
 			sourceTree = "<group>";
@@ -134,8 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3365A420DECA570068C52F /* CalendarViewController.swift in Sources */,
+				2E4BA90220E21EE300BDB425 /* EditTableViewController.swift in Sources */,
+				2E4BA90A20E26D2800BDB425 /* JournalTableViewCell.swift in Sources */,
 				2E33659420DECA320068C52F /* ViewController.swift in Sources */,
 				2E33659220DECA320068C52F /* AppDelegate.swift in Sources */,
+				2E3365AE20E211C70068C52F /* JournalTableViewController.swift in Sources */,
+				2E3365A820E0FB550068C52F /* Journals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
