@@ -62,7 +62,6 @@ class CalendarViewController: UIViewController, UICollectionViewDataSource, UICo
         // 選取的cell的indexpath.row
         selectedIndexpathRow = indexPath.row
         collectionView.reloadData()
-        self.childViewControllers.
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
